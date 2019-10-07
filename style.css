@@ -9,9 +9,16 @@ background-size: cover;
 background-position: center;
 background-attachment: fixed;
 text-align: center;
-
-
+position: center;
 }
+.namn{
+  margin-left: 625px;
+  margin-top: 100px;
+  float: left;
+}
+
+
+
 
 .navbar{
   position: relative;
@@ -42,19 +49,21 @@ text-align: center;
 
 .namn{
   padding-top:  10px;
-  padding-right: 1250px;
+  padding-right: 1000px;
   color: #fff;
 
-  font-size:30px;
+  font-size: 40px;
 }
 
 .container{
   text-align: center;
-  background: gray;
+  background: url("Bilder/nerbild.jpg");
+  height: 60vh;
 }
 
 .punkter{
   width: 60%;
   margin:auto;
   background-color: white;
+  height: 60vh;
 }
