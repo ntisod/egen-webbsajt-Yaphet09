@@ -63,13 +63,17 @@ position: center;
 }
 
 .container{
-  text-align: center;
   background: url("Bilder/nerbild.jpg");
+
+
+  text-align: center;
   height: 90vh;
 }
 
 .punkter{
   width: 55%;
+
+
   margin:auto;
   background-color: white;
   height: 90vh;
