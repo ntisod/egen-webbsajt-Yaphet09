@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0;
 }
+body{
+  font-family: Georgia, sans-serif;
+  font-size: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Alatsi', sans-serif;
+}
 header{
 background-image: url("Bilder/bakgrundsbild.jpg");
 height: 100vh;
