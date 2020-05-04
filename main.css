@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
 .nav {
   background-color:rgb(76, 00, 109);
   border-bottom: 2px solid palevioletred;
@@ -19,15 +22,12 @@
   width: 1000px;
 }
 .menu a {
-  text-decoration: none;
   margin: 0 15px;
   line-height: 100px;
   font-size: 25px;
   text-transform: uppercase;
   color: whitesmoke;
-  clear: right;
-  font-weight: bolder;
-  display: inline block;
+  font-weight: bolder;  
 }
 .menu a:hover{
   color: palevioletred;
@@ -37,6 +37,7 @@
   font-family: 'Bangers', cursive;
   letter-spacing: 5px;
   font-size: 30px;
+  text-shadow: 0px 0px 50px pink;
 }
 label{
   margin: 0 40px 0 0;
@@ -46,10 +47,59 @@ label{
   width: 30px;
   float: right;
 }
-
 #toggle {
   display: none;
 }
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+section{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 3px solid plum;
+}
+.social{
+  text-align: center;
+  display: block;
+}
+.social li {
+  margin-top: 10%;
+  display: inline-block;
+}
+.social li a{
+  text-align: center;
+  margin: auto 20px;
+  font-size: 40px;
+  background-color:rgba(76, 00, 109, 0.2);
+  border-radius: 40%;
+  width: 100%;
+}
+article{
+  text-align: center;
+}
+.name{
+  margin-top: 45%;
+  color: rgb(49, 0, 49);
+  font-family: 'Nosifer', cursive;
+  text-shadow: 0px 0px 20px violet;
+  font-size: 50px;
+}
+.profile{
+  margin-top: 35%;
+}
+.about-text{
+  font-size: 20px;
+}
+
+
+
+
 /** Navbar - ipad version **/
 @media only screen and (max-width: 1000px){
   .menu {
@@ -58,6 +108,16 @@ label{
   }
   .menu a {
     font-size: 20px;
+  }
+  .wrapper {
+    margin: auto;
+    width: 100%;
+  }
+  .about-text{
+    grid-column: span 2;
+  }
+  .name{
+    margin-top: 50%;
   }
 }
 
@@ -112,65 +172,27 @@ label{
     font-family: 'Bangers', cursive;
     color: whitesmoke;
   }
+  section{
+    grid-template-columns: auto;
+    width: 100%;
+  }
+  .name{
+    margin: auto;
+    font-size: 35px;
+  }
+  .profile{
+    margin: auto;
+  }
+  .about-text{
+    font-size: 15px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    grid-column: span 1;
+  }
+  .social{
+    margin-right: 10%;
+  }
 }
-
-/** Main CSS **/
-
-/** Index main CSS - MOBIL version **/
-
-
-
-
-
-body {
-  background-color: whitesmoke;
-}
-
-.index-right img {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-  border: 3px solid palevioletred;
-}
-.social{
-  text-align: center;
-  display: block;
-}
-.social li {  
-  display: inline-block;
-  margin: 10px;
-}
-.social li a{ 
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  width: 100%;
-  margin: 15px;
-  font-size: 35px;
-  background-color:rgba(76, 00, 109, 0.2);
-  border-radius: 50%;
-}
-.index-left{
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: auto;
-}
-.index-left h1{
-  font-size: 40px;
-  color: rgb(49, 0, 49);
-  font-family: 'Nosifer', cursive;
-
-
-}
-.index-left p{
-  margin-top: auto;
-}
-
 
   
 
