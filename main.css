@@ -53,11 +53,15 @@ nav label{
 #toggle {
   display: none;
 }
+
+/* slutet av nav css och början av main css */
+
+
 .wrapper {
   margin: 0 auto;
   width: 1000px;
 }
-section{
+.index{
   display: grid;
   grid-template-columns: 50% 50%;
 }
@@ -83,11 +87,16 @@ section{
   border-radius: 40%;
   width: 100%;
 }
+button{
+  cursor: pointer;
+  font-size: 100%;
+  margin-top: 10px;
+}
 article{
   text-align: center;
 }
 .name{
-  margin-top: 45%;
+  margin-top: 50%;
   color: rgb(49, 0, 49);
   font-family: 'Nosifer', cursive;
   text-shadow: 0px 0px 20px violet;
@@ -166,6 +175,31 @@ article{
   font-size: 20px;
   cursor: pointer;
 }
+.portfollio img{
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  border: 3px solid plum;
+  float: left;
+  margin: 100px 20% 50px;
+}
+.portfollio{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.portfollio h1{
+  text-align: center;
+}
+.intro{
+  grid-column: span 5;
+}
+.framtid{
+  grid-column: span 2;
+}
+.bakgrund{
+  grid-row: span 2;
+}
+
 
 
 
@@ -173,6 +207,9 @@ article{
 
 /** Navbar - ipad version **/
 @media only screen and (max-width: 1000px){
+  p{
+    font-size: 23px;
+  }
   .menu {
     width: 100%;
     text-align: center;
@@ -186,12 +223,22 @@ article{
   }
   .about-text{
     grid-column: span 2;
+    width: 80%;
+    margin: 5% auto 0;
+  }
+  .social{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+  }
+  .social li{
+    margin-right: 5%;
   }
   .name{
-    margin-top: 50%;
+    margin-top: 55%;
   }
   .project-wrapper {
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     margin: 0 auto;
   }
   .contact-form div{
@@ -205,11 +252,28 @@ article{
   .contact-form button{
     padding: 15px;
   }
+  .portfollio{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .portfollio h1{
+    text-align: center;
+  }
+  .intro{
+    grid-column: span 3;
+  }
+  .framtid{
+    grid-column: span 1;
+  }
+  .bakgrund{
+    grid-row: span 1;
+  }
   
 }
 
 /** Navbar - Mobil version **/
 @media only screen and (max-width: 500px) {
+  
   nav label {
     display: block;
     cursor: pointer;
@@ -247,7 +311,10 @@ article{
   }
   .menu a:hover{
    font-family: Arial, Helvetica, sans-serif;
-}
+} 
+  p{
+  font-size: 20px;
+  }
   .nav p{
     display: block;
     position: absolute;
@@ -257,22 +324,30 @@ article{
     font-family: 'Bangers', cursive;
     color: whitesmoke;
   }
-  section{
+  .index{
     grid-template-columns: auto;
     width: 100%;
   }
   .name{
-    margin: auto;
+    margin: 10px auto auto;
     font-size: 35px;
   }
   .profile{
     margin: auto;
+  }
+  .profile img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid plum;
   }
   .about-text{
     font-size: 15px;
     margin-left: 7.5%;
     margin-right: 7.5%;
     grid-column: span 1;
+    width: 95%;
+    margin: 0 auto;
   }
   .social{
     margin-right: 10%;
@@ -294,6 +369,23 @@ article{
   .contact-form div{
     border: 1px solid black;
   }
+  .portfollio{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .portfollio h1{
+    text-align: center;
+  }
+  .intro {
+    grid-column: span 1;
+  }
+  .framtid{
+    grid-column: span 1;
+  }
+  .bakgrund{
+    grid-row: span 1;
+  }
+ 
   
   
 }

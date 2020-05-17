@@ -21,7 +21,6 @@ if (hasTouch()) { // remove all the :hover stylesheets
     } catch (ex) {}
 }
 
-
 function cleartext(){
     document.getElementById("text-name").value = "";
     document.getElementById("text-email").value = "";
