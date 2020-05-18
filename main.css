@@ -185,19 +185,26 @@ article{
 }
 .portfollio{
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-}
-.portfollio h1{
-  text-align: center;
+  grid-template-columns: auto auto auto auto auto;
 }
 .intro{
   grid-column: span 5;
 }
+.bakgrund{
+  grid-row: span 2;
+}
 .framtid{
   grid-column: span 2;
 }
-.bakgrund{
-  grid-row: span 2;
+.nti{
+  grid-column-start: span 3;
+  grid-column: span 1;
+}
+.spel{
+  grid-column: span 1;
+}
+.film{
+  grid-column: span 1;
 }
 
 
@@ -254,19 +261,25 @@ article{
   }
   .portfollio{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-  }
-  .portfollio h1{
-    text-align: center;
+    grid-template-columns: 50% 50%;
   }
   .intro{
-    grid-column: span 3;
+    grid-column: span 2;
+  }
+  .bakgrund{
+    grid-column: span 2;
   }
   .framtid{
     grid-column: span 1;
   }
-  .bakgrund{
-    grid-row: span 1;
+  .nti{
+    grid-column: span 1;
+  }
+  .spel{
+    grid-column: span 1;
+  }
+  .film{
+    grid-column: span 1;
   }
   
 }
@@ -371,19 +384,25 @@ article{
   }
   .portfollio{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
   }
-  .portfollio h1{
-    text-align: center;
+  .intro{
+    grid-column: span 1;
   }
-  .intro {
+  .bakgrund{
     grid-column: span 1;
   }
   .framtid{
     grid-column: span 1;
   }
-  .bakgrund{
-    grid-row: span 1;
+  .nti{
+    grid-column: span 1;
+  }
+  .spel{
+    grid-column: span 1;
+  }
+  .film{
+    grid-column: span 1;
   }
  
   

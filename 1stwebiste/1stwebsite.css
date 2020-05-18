@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Alatsi', sans-serif;
 }
 header{
-background-image: url("Bilder/bakgrundsbild.jpg");
+background-image: url("bakgrundsbild.jpg");
 height: 100vh;
 background-size: cover;
 background-position: center;
@@ -63,7 +63,7 @@ position: center;
 }
 
 .container{
-  background: url("Bilder/nerbild.jpg");
+  background: url("nerbild.jpg");
 
 
   text-align: center;
