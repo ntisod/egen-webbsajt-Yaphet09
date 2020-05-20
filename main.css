@@ -56,7 +56,6 @@ nav label{
 
 /* slutet av nav css och början av main css */
 
-
 .wrapper {
   margin: 0 auto;
   width: 1000px;
@@ -187,8 +186,18 @@ article{
   display: grid;
   grid-template-columns: auto auto auto auto auto;
 }
+.portfollio h1{
+  font-size: 25px;
+}
 .intro{
   grid-column: span 5;
+}
+.intro h1{
+  margin-top: 18%;
+  margin-right: 12%;
+  font-family: 'Nosifer', cursive;
+  text-shadow: 0px 0px 20px violet;
+  font-size: 35px;
 }
 .bakgrund{
   grid-row: 2 / span 2;
@@ -206,9 +215,24 @@ article{
   grid-row: 2 / span 3;
   grid-column: 4 / span 1;
 }
-.film{
+.hobby{
   grid-row: 2 / span 3;
   grid-column: 5 / span 1;
+}
+.portfollio article{
+  width: 98%;
+  height: 90%;
+  margin: 5px auto;
+  border: 1px solid violet;
+  text-align: center;
+  font-size: 18px;
+  padding: 30px 20px;
+}
+.spel ul{
+  margin-top: 20px;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bolder;
 }
 
 
@@ -265,6 +289,14 @@ article{
     display: grid;
     grid-template-columns: 50% 50%;
   }
+  .intro{
+    margin: 0 auto;
+  }
+  .intro h1{
+    margin-top: 22%;
+    margin-right: 4px;
+    font-size: 30px;
+  }
   .bakgrund{
     grid-row: 2 / span 1;
     grid-column: 1 / span 2;
@@ -281,7 +313,7 @@ article{
     grid-row: 4 / span 1;
     grid-column: 1 / span 1;
   }
-  .film{
+  .hobby{
     grid-row: 4 / span 31;
     grid-column: 2 / span 1;
   }
@@ -406,7 +438,7 @@ article{
     grid-row: 6 / span 1;
     grid-column: 1 / span 1;
   }
-  .film{
+  .hobby{
     grid-row: 7 / span 1;
     grid-column: 1 / span 1;
   }
