@@ -86,10 +86,12 @@ nav label{
   border-radius: 40%;
   width: 100%;
 }
-button{
+.button{
   cursor: pointer;
   font-size: 100%;
-  margin-top: 10px;
+  font-size: 25px;
+  margin: 5%;
+  border: 1px dotted purple;
 }
 article, .profile{
   text-align: center;
@@ -127,10 +129,6 @@ article, .profile{
   width: 200px;
   height: 250px;
   margin-top: 5%;
-}
-.project button{
-  font-size: 20px;
-  margin: 5%;
 }
 .contact-form{
   display: grid;
@@ -225,7 +223,7 @@ article, .profile{
   width: 98%;
   height: 90%;
   margin: 5px auto;
-  border: 1px solid violet;
+  border: 1px dotted violet;
   text-align: center;
   font-size: 18px;
   padding: 30px 20px;
