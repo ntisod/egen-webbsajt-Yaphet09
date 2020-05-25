@@ -53,10 +53,10 @@ nav label{
 #toggle {
   display: none;
 }
-
 /* slutet av nav css och början av main css */
 
-.wrapper {  /* wrapper gör så att allting innuti har barra 1000px width och margin gör att den ligger på mitten/center av webssidan*/
+
+.wrapper {  /* wrapper gör så att allting innuti har barra 1000px width och margin gör att den ligger på mitten/center av skärmen*/
   margin: 0 auto;
   width: 1000px;
 }
@@ -238,9 +238,8 @@ article, .profile{
 
 
 
-
 /** Navbar - ipad version **/
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1024px){
   p{
     font-size: 23px;
   }
