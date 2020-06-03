@@ -135,7 +135,7 @@ article, .profile{
 }
 .contact-form{
   display: grid;
-  grid-template-columns: 1;
+  grid-template-columns: span 1;
   text-align: center;
   margin: 15% auto;
   border: 1px solid purple;
